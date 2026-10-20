@@ -1,0 +1,34 @@
+name,slug,category_name,subcategory_name,description,price,unit,mrp,discount_percentage,delivery_eta,image_url,active
+Fresh Potatoes,fresh-potatoes,Vegetables & Fruits,Fresh vegetables,Fresh mountain potatoes,80,1 kg,100,20,20 min,,true
+Green Peas,green-peas,Vegetables & Fruits,Fresh vegetables,Sweet seasonal green peas,45,500 g,60,25,25 mins,,true
+Local Tomato,local-tomato,Vegetables & Fruits,Fresh vegetables,Fresh local tomatoes,40,1 kg,50,20,20 min,,true
+Fresh Apples,fresh-apples,Vegetables & Fruits,Fresh fruits,Crisp apples,120,1 kg,150,20,20 min,,true
+Banana,banana,Vegetables & Fruits,Fresh fruits,Ripe bananas,135,1 dozen,150,10,20 min,,true
+Spinach,spinach,Vegetables & Fruits,Leafy greens,Fresh valley spinach,35,250 g,40,12.5,20 min,,true
+Mint Leaves,mint-leaves,Vegetables & Fruits,Herbs,Fresh mint leaves,25,100 g,30,16.67,20 min,,true
+Wheat Flour,wheat-flour,"Atta, Rice & Dal",Atta & flour,Stone-ground wheat flour,68,1 kg,75,9.33,30 min,,true
+Basmati Rice,basmati-rice,"Atta, Rice & Dal",Rice,Basmati rice,160,1 kg,180,11.11,30 min,,true
+Toor Dal,toor-dal,"Atta, Rice & Dal",Dal & pulses,Premium toor dal,145,1 kg,160,9.38,30 min,,true
+Sunflower Oil,sunflower-oil,"Oil, Ghee & Masala",Cooking oil,Refined sunflower oil,145,1 L,160,9.38,30 min,,true
+Cow Ghee,cow-ghee,"Oil, Ghee & Masala",Ghee,Cow ghee,620,500 ml,680,8.82,30 min,,true
+Kashmiri Chilli Powder,kashmiri-chilli-powder,"Oil, Ghee & Masala",Spices & masala,Mild Kashmiri chilli powder,95,100 g,110,13.64,30 min,,true
+Fresh Milk,fresh-milk,"Dairy, Bread & Eggs",Milk & dairy,Full cream milk,68,1 L,72,5.56,20 min,,true
+Brown Bread,brown-bread,"Dairy, Bread & Eggs",Bread,Fresh brown bread,55,400 g,60,8.33,20 min,,true
+Farm Eggs,farm-eggs,"Dairy, Bread & Eggs",Eggs,Free-range eggs,110,12 pcs,120,8.33,20 min,,true
+Chocolate Cake,chocolate-cake,Bakery & Biscuits,Cakes & pastries,Fresh chocolate cake,520,500 g,600,13.33,45 min,,true
+Butter Biscuits,butter-biscuits,Bakery & Biscuits,Biscuits,Crisp butter biscuits,85,250 g,95,10.53,30 min,,true
+Mixed Snack Box,mixed-snack-box,Bakery & Biscuits,Snacks,Assorted local snacks,180,1 box,200,10,30 min,,true
+Bath Soap,bath-soap,Bath & Body,Soaps,Gentle bathing soap,45,100 g,50,10,30 min,,true
+Shampoo,shampoo,Hair,Shampoo,Daily care shampoo,220,180 ml,250,12,30 min,,true
+Face Moisturizer,face-moisturizer,Skin & Face,Moisturizers,Hydrating face moisturizer,310,100 ml,350,11.43,30 min,,true
+Sunscreen,sunscreen,Skin & Face,Sunscreen,SPF 50 sunscreen,480,50 g,550,12.73,30 min,,true
+First Aid Kit,first-aid-kit,Health & Pharma,First aid,Compact first aid kit,350,1 kit,400,12.5,30 min,,true
+Dry Almonds,dry-almonds,Dry Fruits & Cereals,Dry fruits,Premium almonds,760,500 g,820,7.32,30 min,,true
+Corn Flakes,corn-flakes,Dry Fruits & Cereals,Cereals,Crunchy breakfast cereal,260,500 g,290,10.34,30 min,,true
+Fresh Chicken Curry Cut,fresh-chicken-curry-cut,"Chicken, Meat & Fish",Chicken,Curry cut chicken,420,1 kg,460,8.7,30 min,,true
+Fresh Trout,fresh-trout,"Chicken, Meat & Fish",Fish,Same-day mountain trout,850,1 kg,900,5.56,45 min,,true
+Nonstick Pan,nonstick-pan,Kitchenware & Appliances,Cookware,Nonstick cooking pan,780,1 pc,900,13.33,60 min,,true
+Phone Charger,phone-charger,Electronics,Mobile accessories,Fast charging cable and adapter,650,1 set,750,13.33,45 min,,true
+Notebook,notebook,Stationery & Games,Stationery, ruled notebook,90,1 pc,100,10,30 min,,true
+Hotel Toiletry Kit,hotel-toiletry-kit,Hotel Essentials,Guest supplies,Guest toiletry essentials,180,1 kit,220,18.18,45 min,,true
+Takeaway Containers,takeaway-containers,Restaurant Supplies,Packaging,Food-safe takeaway containers,320,25 pcs,360,11.11,45 min,,true
