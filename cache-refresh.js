@@ -1,0 +1,1 @@
+(()=>{const key='grovale-cache-refresh-v1';if(sessionStorage.getItem(key))return;sessionStorage.setItem(key,'1');if('serviceWorker' in navigator)navigator.serviceWorker.getRegistrations().then(regs=>Promise.all(regs.map(r=>r.unregister()))).then(()=>caches?.keys?.()).then(keys=>Promise.all((keys||[]).map(k=>caches.delete(k)))).then(()=>location.reload()).catch(()=>{})})();
