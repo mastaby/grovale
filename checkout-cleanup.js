@@ -1,1 +1,1 @@
-(()=>{const clean=()=>{document.querySelectorAll('.cod-summary').forEach(node=>node.remove());document.querySelectorAll('.checkout-form .locate, #checkout-form .locate').forEach(node=>node.remove());document.querySelectorAll('#guest-address-choice').forEach(node=>node.remove())};new MutationObserver(clean).observe(document.body,{childList:true,subtree:true});clean()})();
+// Disabled: preserve the native guest checkout controls.
