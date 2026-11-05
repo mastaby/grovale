@@ -1,0 +1,1 @@
+(()=>{const defer=()=>document.querySelectorAll('img:not(.site-quick-nav img)').forEach(img=>{if(!img.closest('.site-quick-nav')&&!img.hasAttribute('loading'))img.loading='lazy'});new MutationObserver(defer).observe(document.documentElement,{childList:true,subtree:true});defer()})();
