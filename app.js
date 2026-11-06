@@ -302,10 +302,10 @@ async function boot(){renderCategoryHub=(()=>{const original=renderCategoryHub;r
 }
 function productIsAvailable(product){return product?.stock_quantity==null||Number(product.stock_quantity)>0}
 function decorateInventoryState(){document.querySelectorAll('.product').forEach(card=>{const name=card.querySelector('h3')?.textContent;const product=products.find(item=>item.name===name);if(!product||productIsAvailable(product))return;card.classList.add('out-of-stock');const button=card.querySelector('.add');if(button){button.disabled=true;button.textContent='Out of stock'}})}
-const originalRender=render;render=function(){originalRender();document.querySelectorAll('.home-trust-strip,.trust-footer').forEach(node=>node.remove());addCategoryTrustDetails();addCustomerProductFilters();addProductUnits();addStickyCart();decorateInventoryState();const cartButton=document.querySelector('#cart');if(cartButton)cartButton.onclick=checkout};
+const originalRender=render;render=function(){originalRender();document.querySelectorAll('.home-trust-strip,.trust-footer').forEach(node=>node.remove());addCategoryTrustDetails();addCustomerProductFilters();addProductUnits();addStickyCart();decorateInventoryState();const cartButton=document.querySelector('#cart');if(cartButton)cartButton.onclick=cartEntryPoint};
 function cartEntryPoint(){return checkout()}
 setInterval(()=>{const cartButton=document.querySelector('#cart');if(cartButton)cartButton.onclick=cartEntryPoint},250);
-const originalBind=bind;bind=function(){originalBind();const cartButton=document.querySelector('#cart');if(cartButton)cartButton.onclick=checkout};
+const originalBind=bind;bind=function(){originalBind();const cartButton=document.querySelector('#cart');if(cartButton)cartButton.onclick=cartEntryPoint};
 const originalShowToast=showToast;showToast=function(){suppressCartOpen=true;originalShowToast()};
 const renderCartPanel=openCart;openCart=function(){if(suppressCartOpen){suppressCartOpen=false;return}const drawer=document.querySelector('#drawer');if(drawer?.classList.contains('open')){closeDrawer();return}renderCartPanel()};
 function toggleCart(){openCart()}
